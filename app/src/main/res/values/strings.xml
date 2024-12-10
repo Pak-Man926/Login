@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="username">Username:</string>
+    <string name="email">Email:</string>
+    <string name="contact">Contact:</string>
+    <string name="password">password:</string>
+    <string name="confirm">Confirm :</string>
+    <string name="Password">Password</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="register">Register</string>
+</resources>

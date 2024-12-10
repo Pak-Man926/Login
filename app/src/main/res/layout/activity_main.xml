@@ -1,0 +1,123 @@
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+
+
+        <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="@string/registration_form"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/username"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"/>
+
+        <EditText
+                android:id="@+id/edittext1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="text"/>
+        <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/email"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"/>
+
+        <EditText
+                android:id="@+id/edittext2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="textEmailAddress"/>
+
+        <TextView
+                android:id="@+id/contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/contact"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"/>
+
+        <EditText
+                android:id="@+id/edittext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="phone"/>
+
+        <TextView
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/Password"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"/>
+
+        <EditText
+                android:id="@+id/edittext4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="textPassword"/>
+
+        <TextView
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/confirm"
+                android:textSize="15sp"
+                android:textAlignment="center"
+                android:fontFamily="monospace"/>
+
+        <EditText
+                android:id="@+id/edittext5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:inputType="textPassword"/>
+
+        <!-- Navigation Button -->
+        <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/register"
+                android:background="#8BC34A"/>
+    </LinearLayout>
+</ScrollView>
