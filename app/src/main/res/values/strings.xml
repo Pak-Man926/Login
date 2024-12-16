@@ -1,11 +1,19 @@
 <resources>
     <string name="app_name">Login</string>
-    <string name="username">Username:</string>
-    <string name="email">Email:</string>
-    <string name="contact">Contact:</string>
-    <string name="password">password:</string>
-    <string name="confirm">Confirm :</string>
-    <string name="Password">Password</string>
-    <string name="registration_form">Registration Form</string>
+    <string name="welcome">Welcome</string>
+    <string name="login">Login</string>
     <string name="register">Register</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username">Username</string>
+    <string name="enter_your_username">Enter your Username:</string>
+    <string name="john_doe">John Doe</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="password">Password</string>
 </resources>
