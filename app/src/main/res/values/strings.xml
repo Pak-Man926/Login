@@ -14,6 +14,10 @@
     <string name="username">Username</string>
     <string name="enter_your_username">Enter your Username:</string>
     <string name="john_doe">John Doe</string>
-    <string name="enter_your_password">Enter your Password</string>
+    <string name="enter_your_password">Enter your Password:</string>
     <string name="password">Password</string>
+    <string name="enter_your_first_name">Enter your First Name:</string>
+    <string name="john">John</string>
+    <string name="enter_your_second_name">Enter your Second Name:</string>
+    <string name="doe">Doe</string>
 </resources>
